@@ -6,7 +6,7 @@
 <body>
 <?php
 include 'connect.php';
-if (isset($_GET['err']) && $_GET['err'] == "")
+if (isset($_GET['err']) && $_GET['err'] == "ures")
 {
 	echo "MINDEN MEZŐT KI KELL TÖLTENI!";
 }
